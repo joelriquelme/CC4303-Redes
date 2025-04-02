@@ -27,7 +27,6 @@ def Rdr(s, size, total_sent, done_event):
             data = s.recv(size)
             if not data:
                 break
-            sys.stdout.buffer.write(data)
             bytes_received += len(data)
         except:
             break
