@@ -1,0 +1,163 @@
+Resultados Tarea 3 - Localhost - Thu May  8 20:15:40 -04 2025
+Protocolo Stop-and-Wait
+=================================
+
+--- Prueba con chunk: 128 bytes, timeout: 0.05 s ---
+sent 4097 packets, lost 1, 0.024408%
+
+real	0m15.044s
+user	0m0.529s
+sys	0m0.356s
+Tamaño original: 512K (524288 bytes)
+Tamaño recibido: 512K (524288 bytes)
+Porcentaje recibido: 100%
+
+--- Prueba con chunk: 128 bytes, timeout: 0.1 s ---
+sent 4097 packets, lost 0, 0.000000%
+
+real	0m13.961s
+user	0m0.472s
+sys	0m0.436s
+Tamaño original: 512K (524288 bytes)
+Tamaño recibido: 512K (524288 bytes)
+Porcentaje recibido: 100%
+
+--- Prueba con chunk: 128 bytes, timeout: 0.5 s ---
+sent 4097 packets, lost 4, 0.097632%
+
+real	0m18.529s
+user	0m0.449s
+sys	0m0.459s
+Tamaño original: 512K (524288 bytes)
+Tamaño recibido: 512K (524288 bytes)
+Porcentaje recibido: 100%
+
+--- Prueba con chunk: 128 bytes, timeout: 1.0 s ---
+sent 4097 packets, lost 2, 0.048816%
+
+real	0m17.471s
+user	0m0.636s
+sys	0m0.281s
+Tamaño original: 512K (524288 bytes)
+Tamaño recibido: 512K (524288 bytes)
+Porcentaje recibido: 100%
+
+--- Prueba con chunk: 256 bytes, timeout: 0.05 s ---
+sent 2049 packets, lost 0, 0.000000%
+
+real	0m7.512s
+user	0m0.327s
+sys	0m0.133s
+Tamaño original: 512K (524288 bytes)
+Tamaño recibido: 512K (524288 bytes)
+Porcentaje recibido: 100%
+
+--- Prueba con chunk: 256 bytes, timeout: 0.1 s ---
+sent 2049 packets, lost 2, 0.097609%
+
+real	0m7.709s
+user	0m0.266s
+sys	0m0.221s
+Tamaño original: 512K (524288 bytes)
+Tamaño recibido: 512K (524288 bytes)
+Porcentaje recibido: 100%
+
+--- Prueba con chunk: 256 bytes, timeout: 0.5 s ---
+sent 2049 packets, lost 1, 0.048804%
+
+real	0m8.405s
+user	0m0.278s
+sys	0m0.204s
+Tamaño original: 512K (524288 bytes)
+Tamaño recibido: 512K (524288 bytes)
+Porcentaje recibido: 100%
+
+--- Prueba con chunk: 256 bytes, timeout: 1.0 s ---
+sent 2049 packets, lost 2, 0.097609%
+
+real	0m8.692s
+user	0m0.237s
+sys	0m0.199s
+Tamaño original: 512K (524288 bytes)
+Tamaño recibido: 512K (524288 bytes)
+Porcentaje recibido: 100%
+
+--- Prueba con chunk: 512 bytes, timeout: 0.05 s ---
+sent 1025 packets, lost 0, 0.000000%
+
+real	0m3.501s
+user	0m0.179s
+sys	0m0.095s
+Tamaño original: 512K (524288 bytes)
+Tamaño recibido: 512K (524288 bytes)
+Porcentaje recibido: 100%
+
+--- Prueba con chunk: 512 bytes, timeout: 0.1 s ---
+sent 1025 packets, lost 0, 0.000000%
+
+real	0m4.189s
+user	0m0.155s
+sys	0m0.116s
+Tamaño original: 512K (524288 bytes)
+Tamaño recibido: 512K (524288 bytes)
+Porcentaje recibido: 100%
+
+--- Prueba con chunk: 512 bytes, timeout: 0.5 s ---
+sent 1025 packets, lost 0, 0.000000%
+
+real	0m4.718s
+user	0m0.148s
+sys	0m0.119s
+Tamaño original: 512K (524288 bytes)
+Tamaño recibido: 512K (524288 bytes)
+Porcentaje recibido: 100%
+
+--- Prueba con chunk: 512 bytes, timeout: 1.0 s ---
+sent 1025 packets, lost 0, 0.000000%
+
+real	0m3.603s
+user	0m0.131s
+sys	0m0.131s
+Tamaño original: 512K (524288 bytes)
+Tamaño recibido: 512K (524288 bytes)
+Porcentaje recibido: 100%
+
+--- Prueba con chunk: 1024 bytes, timeout: 0.05 s ---
+sent 513 packets, lost 0, 0.000000%
+
+real	0m1.921s
+user	0m0.042s
+sys	0m0.112s
+Tamaño original: 512K (524288 bytes)
+Tamaño recibido: 512K (524288 bytes)
+Porcentaje recibido: 100%
+
+--- Prueba con chunk: 1024 bytes, timeout: 0.1 s ---
+sent 513 packets, lost 0, 0.000000%
+
+real	0m1.917s
+user	0m0.084s
+sys	0m0.076s
+Tamaño original: 512K (524288 bytes)
+Tamaño recibido: 512K (524288 bytes)
+Porcentaje recibido: 100%
+
+--- Prueba con chunk: 1024 bytes, timeout: 0.5 s ---
+sent 513 packets, lost 0, 0.000000%
+
+real	0m1.955s
+user	0m0.097s
+sys	0m0.064s
+Tamaño original: 512K (524288 bytes)
+Tamaño recibido: 512K (524288 bytes)
+Porcentaje recibido: 100%
+
+--- Prueba con chunk: 1024 bytes, timeout: 1.0 s ---
+sent 513 packets, lost 1, 0.194932%
+
+real	0m3.357s
+user	0m0.113s
+sys	0m0.048s
+Tamaño original: 512K (524288 bytes)
+Tamaño recibido: 512K (524288 bytes)
+Porcentaje recibido: 100%
