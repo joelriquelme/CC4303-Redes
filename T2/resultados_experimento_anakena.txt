@@ -1,0 +1,90 @@
+Resultados del Experimento - Sun Apr 20 20:22:30 -04 2025
+=================================
+
+--- Prueba con chunk size = 1024 bytes ---
+
+[Archivo grande]
+Tamaño original: 500K (512000 bytes)
+Tamaño recibido: 500K (512000 bytes)
+Porcentaje recibido: 100%
+
+-Tiempo Total-
+real    0m0.195s
+user    0m0.035s
+sys     0m0.045s
+
+[50 archivos pequeños]
+Total esperado: 500 KB (512000 bytes)
+Total recibido: 500 KB (512000 bytes)
+Porcentaje total recibido: 100%
+
+-Tiempo Total (el más lento de los 50 sin timeout)-
+real    0m0.959s
+user    0m0.050s
+sys     0m0.029s
+
+--- Prueba con chunk size = 4096 bytes ---
+
+[Archivo grande]
+Tamaño original: 500K (512000 bytes)
+Tamaño recibido: 500K (512000 bytes)
+Porcentaje recibido: 100%
+
+-Tiempo Total-
+real    0m0.083s
+user    0m0.015s
+sys     0m0.031s
+
+[50 archivos pequeños]
+Total esperado: 500 KB (512000 bytes)
+Total recibido: 500 KB (512000 bytes)
+Porcentaje total recibido: 100%
+
+-Tiempo Total (el más lento de los 50 sin timeout)-
+real    0m0.814s
+user    0m0.069s
+sys     0m0.000s
+
+--- Prueba con chunk size = 16384 bytes ---
+
+[Archivo grande]
+Tamaño original: 500K (512000 bytes)
+Tamaño recibido: 500K (512000 bytes)
+Porcentaje recibido: 100%
+
+-Tiempo Total-
+real    0m0.061s
+user    0m0.019s
+sys     0m0.010s
+
+[50 archivos pequeños]
+Total esperado: 500 KB (512000 bytes)
+Total recibido: 500 KB (512000 bytes)
+Porcentaje total recibido: 100%
+
+-Tiempo Total (el más lento de los 50 sin timeout)-
+real    0m0.789s
+user    0m0.048s
+sys     0m0.027s
+
+--- Prueba con chunk size = 32768 bytes ---
+
+[Archivo grande]
+Tamaño original: 500K (512000 bytes)
+Tamaño recibido: 500K (512000 bytes)
+Porcentaje recibido: 100%
+
+-Tiempo Total-
+real    0m0.066s
+user    0m0.028s
+sys     0m0.007s
+
+[50 archivos pequeños]
+Total esperado: 500 KB (512000 bytes)
+Total recibido: 500 KB (512000 bytes)
+Porcentaje total recibido: 100%
+
+-Tiempo Total (el más lento de los 50 sin timeout)-
+real    0m0.866s
+user    0m0.036s
+sys     0m0.042s
